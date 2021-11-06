@@ -1,0 +1,49 @@
+plugins/
+storage/
+backgrounds/
+docs/
+database\.sqlite
+/testing/constants.yml
+/config.json
+/testing/config.yml
+/commandMap\.json
+*.class
+.DS_Store
+config.yml
+constants.yml
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+!gradle-wrapper.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Editor settings
+.idea/
+.ideaDataSources/
+/*.iws
+/*.ipr
+/*.iml
+
+# Compile location
+.gradle/*
+target/
+build/
+out/
+bin/
+AvaIre.jar
+
+# Image Generator Branch
+test-output\.png
+testing/
+
+# Specific hidden files
+src/main/java/com/avairebot/scheduler/jobs/generic/RunEveryFiveMinuteJob.java
+src/main/java/com/avairebot/scheduler/tasks/CheckUserOnlineStatus.java
+
